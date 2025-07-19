@@ -17,12 +17,12 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Dr. Sergio Murillo" }],
   creator: "Dr. Sergio Murillo",
-  //metadataBase: new URL(""),
+  metadataBase: new URL("https://www.gastroenterologosergiomurillo.com"),
   openGraph: {
     title: "Dr. Sergio Murillo - Cirujano Gastroenterólogo en Nogales, Son.",
     description:
       "Atención especializada en enfermedades del aparato digestivo. Más de 35 años de experiencia.",
-    url: "",
+    url: "https://www.gastroenterologosergiomurillo.com",
     siteName: "Dr. Sergio Murillo",
     locale: "es_US",
     type: "website",
