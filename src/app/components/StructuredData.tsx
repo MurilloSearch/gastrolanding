@@ -16,8 +16,8 @@ export default function StructuredData() {
       "addressCountry": "MX"
     },
     "telephone": "+526311260958",
-    "url": "https://www.tudominio.com",
-    "image": "https://www.tudominio.com/foto-doctor.jpg",
+    "url": "https://www.gastroenterologosergiomurilo.com",
+    "image": "https://www.gastroenterologosergiomurilo.com/logo.png",
     "availableService": [
       {
         "@type": "MedicalProcedure",

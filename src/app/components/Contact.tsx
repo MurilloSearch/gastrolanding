@@ -19,7 +19,7 @@ export default function Contact() {
             loading="lazy"
             allowFullScreen
             referrerPolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps/embed/v1/place?q=Nogales,+AZ&key=TU_API_KEY_AQUI">
+            src="https://www.google.com/maps/embed/v1/place?q=Nogales,+AZ&key=AIzaSyCCpBe7IxRVRWxHsObROJz0fHyc276qTQ4">
           </iframe>
         </div>
       </div>
