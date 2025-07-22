@@ -19,7 +19,7 @@ export default function Contact() {
             loading="lazy"
             allowFullScreen
             referrerPolicy="no-referrer-when-downgrade"
-            src="https://www.google.com.mx/maps/place/Av.+Alvaro+Obregon+19-Suite+13,+Fund%C3%B3+Legal,+Centro,+84000+Heroica+Nogales,+Son./@31.3323207,-110.9462326,19z/data=!3m1!4b1!4m5!3m4!1s0x86d6ad219d7d4a29:0x2b5c312f06dee49!8m2!3d31.3323207!4d-110.9455889?hl=es&entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D&key=AIzaSyCCpBe7IxRVRWxHsObROJz0fHyc276qTQ4">
+            src="https://www.google.com/maps/embed/v1/place?key=TU_API_KEY&q=31.332264,-110.945707">
           </iframe>
         </div>
       </div>
