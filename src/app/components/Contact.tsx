@@ -19,7 +19,8 @@ export default function Contact() {
             loading="lazy"
             allowFullScreen
             referrerPolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCCpBe7IxRVRWxHsObROJz0fHyc276qTQ4&q=31.332264,-110.945707">
+            src={`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&q=31.332264,-110.945707`}
+            title="Ubicación del Dr. Murillo">
           </iframe>
         </div>
       </div>

@@ -17,7 +17,7 @@ export default function StructuredData() {
     },
     "telephone": "+526311260958",
     "url": "https://www.gastroenterologosergiomurilo.com",
-    "image": "https://www.gastroenterologosergiomurilo.com/logo.png",
+    "image": "https://www.gastroenterologosergiomurilo.com/favicon.ico",
     "availableService": [
       {
         "@type": "MedicalProcedure",
