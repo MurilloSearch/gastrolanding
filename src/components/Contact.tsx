@@ -27,7 +27,8 @@ export default function Contact() {
             <CardContent>
               <iframe
                 src={`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&q=31.332264,-110.945707`}
-                className="w-full h-full" 
+                className='sm:h-96 md:h-106 lg:h-130 xl:h-150 2xl:h-160'
+                width="100%" 
                 style={{ border: 0 }}
                 allowFullScreen={true}
                 loading="lazy"
@@ -77,7 +78,7 @@ export default function Contact() {
                 <CarouselContent>
                   <CarouselItem>
                     <Image
-                      src="/calle1.jfif"
+                      src="/calle1.png"
                       alt="Front of the clinic building"
                       width={600}
                       height={400}
@@ -87,7 +88,7 @@ export default function Contact() {
                   </CarouselItem>
                   <CarouselItem>
                     <Image
-                      src="/calle2.jfif"
+                      src="/calle2.png"
                       alt="Side view of the clinic"
                       width={600}
                       height={400}
@@ -97,12 +98,12 @@ export default function Contact() {
                   </CarouselItem>
                   <CarouselItem>
                     <Image
-                      src="/dentro.jfif"
+                      src="/dentro.png"
                       alt="Street view of the clinic"
                       width={600}
                       height={400}
                       className="w-full h-auto object-cover aspect-[3/2]"
-                      data-ai-hint="clinic street"
+                      data-ai-hint="clinic door"
                     />
                   </CarouselItem>
                 </CarouselContent>

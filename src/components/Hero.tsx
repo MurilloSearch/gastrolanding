@@ -31,7 +31,7 @@ const Hero = () => {
           <div className='flex justify-center'>
           <div className="sm:h-120 md:h-100 lg:h-120 w-100 rounded-lg overflow-hidden shadow-2xl inline-block">
             <Image
-              src="/drmurillo.jfif"
+              src="/drmurillo.png"
               alt="Dr. Murillo"
               width={500}
               height={700}
