@@ -46,15 +46,15 @@ export default function Navbar() {
   return (
     <header
       className={cn(
-        'sticky top-0 z-50 w-full transition-all duration-300',
-        hasScrolled ? 'bg-background/95 shadow-sm backdrop-blur-sm' : 'bg-transparent'
+        'sticky top-0 z-50 w-full transition-all duration-300 ',
+        hasScrolled ? 'bg-sidebar-ring/30 shadow-sm backdrop-blur-sm' : 'bg-sidebar-ring/70'
       )}
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-6">
         <Logo />
         <div className="hidden md:flex items-center gap-4">
           <NavLinks />
-          <Button asChild>
+          <Button asChild className='bg-ring text-accent-foreground'>
             <a href="#contacto">Agendar cita</a>
           </Button>
         </div>
@@ -76,7 +76,7 @@ export default function Navbar() {
                 </div>
                 <div className="mt-8 flex flex-1 flex-col items-center justify-center gap-6">
                   <NavLinks className="flex-col text-xl" />
-                  <Button asChild size="lg" className="mt-8">
+                  <Button asChild size="lg" className="mt-8 bg-ring text-accent-foreground">
                     <a href="#contacto" onClick={() => setIsMobileMenuOpen(false)}>Agendar cita</a>
                   </Button>
                 </div>

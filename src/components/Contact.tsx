@@ -27,7 +27,7 @@ export default function Contact() {
             <CardContent>
               <iframe
                 src={`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&q=31.332264,-110.945707`}
-                className='sm:h-96 md:h-106 lg:h-130 xl:h-150'
+                className='sm:h-96 md:h-106 lg:h-130'
                 width="100%" 
                 style={{ border: 0 }}
                 allowFullScreen={true}
