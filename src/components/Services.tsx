@@ -5,7 +5,7 @@ const services = [
     {
         icon: PillBottle,
         title: 'Endoscopia y Colonoscopia',
-        description: 'Procedimientos de diagnóstico y terapéuticos de vanguardia para examinar tu tracto digestivo.',
+        description: 'Procedimientos con tecnología de vanguardia para examinar su tracto digestivo y brindar diagnóstico y tratamiento.',
     },
     {
         icon: Stethoscope,
@@ -15,7 +15,7 @@ const services = [
     {
         icon: ShieldCheck,
         title: 'Prevención y Seguimiento',
-        description: 'Aatención continua para mantener tu salud digestiva y prevenir problemas futuros.',
+        description: 'Atención continua para mantener su salud digestiva y prevenir problemas futuros.',
     },
     {
         icon: Hospital,

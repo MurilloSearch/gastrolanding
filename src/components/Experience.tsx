@@ -12,8 +12,7 @@ const ExperienceSection = () => {
               Experiencia y empatía
             </h2>
             <p className="mt-6 text-lg text-muted-foreground">
-              Con años de formación especializada y un compromiso con la atención centrada en el paciente, mi consultorio se dedica a brindarte el más alto nivel de tratamiento gastroenterológico. Mi enfoque se basa en escuchar tus inquietudes y elaborar un camino personalizado hacia el bienestar.
-            </p>
+Con años de formación especializada y un compromiso con la atención centrada en el paciente, nuestra práctica le brindará el mejor tratamiento para su padecimiento. Nuestro enfoque se basa en escuchar sus inquietudes y elaborar un elaborar plan personalizado para su bienestar.            </p>
             <div className="mt-8 space-y-6">
               <div className="flex items-start gap-4">
                 <div className="p-3 bg-primary/20 rounded-full">

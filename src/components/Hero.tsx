@@ -9,10 +9,10 @@ const Hero = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="text-center md:text-left">
             <h1 className="font-headline text-4xl md:text-6xl font-bold tracking-tight">
-              Cuidado para su Salud Digestiva
+              Cuidado para su salud digestiva
             </h1>
             <p className="mt-7 text-lg md:text-xl text-muted-foreground max-w-lg mx-auto md:mx-0">
-                Servicios de gastroenterología personalizados, a mano expertos para ayudarlo a sentirse de lo mejor. Su camino hacia el bienestar comienza aquí.
+                Servicios de gastroenterología personalizados, a mano de expertos altamente calificados con más de 35 años de experiencia. Su camino hacia el bienestar comienza aquí.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
               <Button size="lg" asChild className="w-full sm:w-auto bg-accent hover:bg-accent/90 text-accent-foreground">
