@@ -7,7 +7,7 @@ import { cn } from '@/lib/utils';
 import Logo from '@/components/Logo';
 
 const navLinks = [
-    { href: '#inicio', label: 'Inicio' },
+    { href: '#home', label: 'Inicio' },
     { href: '#experiencia', label: 'Experiencia' },
     { href: '#servicios', label: 'Servicios' },
     { href: '#contacto', label: 'Contacto' },

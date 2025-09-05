@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const ExperienceSection = () => {
   return (
-    <section id="experience" className="py-20 md:py-32">
+    <section id="experiencia" className="py-20 md:py-32">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
